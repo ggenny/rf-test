@@ -1,0 +1,1 @@
+curl -X POST http://192.168.0.46:3000/sendiq -H "Content-Type: application/octet-stream" -H "power-level: 7" -H "loop-mode: 1" -H "loop-duration: 60" -H "Sample-Rate: 10000" -H "Frequency: 433.944e6" -H "IQ-Type: float" --data-binary @GSMK_FLOAT_IQ

@@ -1,0 +1,1 @@
+hackrf_transfer -t SBARRA_VIALE_BBD_0001_2.C8 -f 433929300 -s 10000000 -x 15 -R

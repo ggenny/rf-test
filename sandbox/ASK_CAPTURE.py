@@ -247,7 +247,7 @@ class ASK_CAPTURE(gr.top_block, Qt.QWidget):
                 100000,
                 window.WIN_HAMMING,
                 6.76))
-        self.epy_block_0 = epy_block_0.blk(null_limit=50)
+        self.epy_block_0 = epy_block_0.blk(null_limit=10)
         self.digital_clock_recovery_mm_xx_0 = digital.clock_recovery_mm_ff((samp_per_sym*(1+0.0)), (0.25*0.175*0.175), 0.5, 0.175, 0.005)
         self.blocks_threshold_ff_0 = blocks.threshold_ff(0.5, 1.0, 0)
         self.blocks_pack_k_bits_bb_0 = blocks.pack_k_bits_bb(8)
